@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Load your latest scraped file
-df = pd.read_csv("../data/all_bank_reviews_20250608_151547.csv")  # Replace with your actual file name
+df = pd.read_csv("../data/all_bank_reviews_20250608_205256.csv")  # Replace with your actual file name
 
 # Drop empty reviews
 df.dropna(subset=['review_text'], inplace=True)
