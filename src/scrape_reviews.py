@@ -13,11 +13,11 @@ logging.basicConfig(
 
 def scrape_reviews_for_all_banks():
     apps = {
-        "CBE": ("com.cbe.customerapp", "Commercial Bank of Ethiopia"),
-        "BOA": ("com.bankofabyssinia.boamobile", "Bank of Abyssinia"),
-        "Dashen": ("com.dashen.dashensuperapp", "Dashen Bank")
-    }
-
+     "CBE": ("com.combanketh.mobilebanking", "Commercial Bank of Ethiopia"),
+     "BOA": ("com.boa.boaMobileBanking", "Bank of Abyssinia"),
+     "Dashen": ("com.dashen.dashensuperapp", "Dashen Bank")
+}
+ 
     all_reviews = []
 
     for code, (app_id, bank_name) in apps.items():
